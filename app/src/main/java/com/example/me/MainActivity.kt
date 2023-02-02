@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
             num9.id -> {buclick +="9"}
             num0.id -> {buclick +="0"}
             point.id -> {buclick +="."}
+
         }
         text_v.setText(buclick)
     }
